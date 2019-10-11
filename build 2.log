@@ -1,0 +1,214 @@
+Setting User
+UID: 501
+GID: 20
+Switching user
+make: Entering directory '/nerves/env/platform/buildroot-2019.08'
+  GEN     /nerves/build/Makefile
+#
+# configuration written to /nerves/build/.config
+#
+make: Leaving directory '/nerves/env/platform/buildroot-2019.08'
+------------
+
+Build directory successfully created.
+
+Configuration: /nerves/env/custom_bbb/nerves_defconfig
+
+Next, do the following:
+   1. cd /nerves/build
+   2. make
+
+For additional options, run 'make help' in the build directory.
+
+IMPORTANT: If you update nerves_system_br, you should rerun this script.
+Setting User
+UID: 501
+GID: 20
+Switching user
+/usr/bin/make -j1 O=/nerves/build HOSTCC="/usr/bin/gcc" HOSTCXX="/usr/bin/g++" syncconfig
+  GEN     /nerves/build/Makefile
+>>>   Finalizing target directory
+# Check files that are touched by more than one package
+./support/scripts/check-uniq-files -t target /nerves/build/build/packages-file-list.txt
+Warning: target file "./lib/libatomic.so.1.2.0" is touched by more than one package: [u'toolchain-external-custom', u'busybox']
+Warning: target file "./usr/bin/fwup" is touched by more than one package: [u'fwup', u'busybox']
+Warning: target file "./usr/sbin/f2fstat" is touched by more than one package: [u'f2fs-tools', u'busybox']
+Warning: target file "./usr/lib/erlang/erts-10.4.4/bin/run_erl" is touched by more than one package: [u'erlang', u'busybox']
+Warning: target file "./usr/lib/libssl.so.1.1" is touched by more than one package: [u'libopenssl', u'busybox']
+Warning: target file "./usr/sbin/wpa_passphrase" is touched by more than one package: [u'wpa_supplicant', u'busybox']
+Warning: target file "./usr/lib/libp11.so.3.4.1" is touched by more than one package: [u'libp11', u'busybox']
+Warning: target file "./lib/libuuid.so.1.3.0" is touched by more than one package: [u'util-linux', u'busybox']
+Warning: target file "./usr/lib/erlang/erts-10.4.4/bin/epmd" is touched by more than one package: [u'erlang', u'busybox']
+Warning: target file "./lib/libc-2.29.so" is touched by more than one package: [u'toolchain-external-custom', u'busybox']
+Warning: target file "./lib/libresolv-2.29.so" is touched by more than one package: [u'toolchain-external-custom', u'busybox']
+Warning: target file "./lib/libdl-2.29.so" is touched by more than one package: [u'toolchain-external-custom', u'busybox']
+Warning: target file "./usr/lib/libmnl.so.0.2.0" is touched by more than one package: [u'libmnl', u'busybox']
+Warning: target file "./usr/lib/erlang/bin/run_erl" is touched by more than one package: [u'erlang', u'busybox']
+Warning: target file "./usr/lib/libnl-route-3.so.200.26.0" is touched by more than one package: [u'libnl', u'busybox']
+Warning: target file "./lib/libnss_files-2.29.so" is touched by more than one package: [u'toolchain-external-custom', u'busybox']
+Warning: target file "./usr/lib/libmenu.so.6.1" is touched by more than one package: [u'ncurses', u'busybox']
+Warning: target file "./usr/lib/erlang/erts-10.4.4/bin/erlexec" is touched by more than one package: [u'erlang', u'busybox']
+Warning: target file "./lib/libpthread-2.29.so" is touched by more than one package: [u'toolchain-external-custom', u'busybox']
+Warning: target file "./sbin/init" is touched by more than one package: [u'erlinit', u'busybox']
+Warning: target file "./usr/lib/libf2fs_format.so.4.0.0" is touched by more than one package: [u'f2fs-tools', u'busybox']
+Warning: target file "./usr/sbin/sg_write_buffer" is touched by more than one package: [u'f2fs-tools', u'busybox']
+Warning: target file "./lib/libstdc++.so.6.0.25" is touched by more than one package: [u'toolchain-external-custom', u'busybox']
+Warning: target file "./usr/lib/erlang/erts-10.4.4/bin/inet_gethost" is touched by more than one package: [u'erlang', u'busybox']
+Warning: target file "./usr/lib/libarchive.so.13.4.0" is touched by more than one package: [u'libarchive', u'busybox']
+Warning: target file "./usr/lib/libpanel.so.6.1" is touched by more than one package: [u'ncurses', u'busybox']
+Warning: target file "./lib/libcrypt-2.29.so" is touched by more than one package: [u'toolchain-external-custom', u'busybox']
+Warning: target file "./usr/lib/libform.so.6.1" is touched by more than one package: [u'ncurses', u'busybox']
+Warning: target file "./usr/lib/libnl-xfrm-3.so.200.26.0" is touched by more than one package: [u'libnl', u'busybox']
+Warning: target file "./usr/lib/erlang/erts-10.4.4/bin/erl_child_setup" is touched by more than one package: [u'erlang', u'busybox']
+Warning: target file "./usr/lib/engines-1.1/pkcs11.so" is touched by more than one package: [u'libp11', u'busybox']
+Warning: target file "./usr/bin/boardid" is touched by more than one package: [u'boardid', u'busybox']
+Warning: target file "./usr/lib/erlang/erts-10.4.4/bin/to_erl" is touched by more than one package: [u'erlang', u'busybox']
+Warning: target file "./usr/sbin/fsck.f2fs" is touched by more than one package: [u'f2fs-tools', u'busybox']
+Warning: target file "./lib/libutil-2.29.so" is touched by more than one package: [u'toolchain-external-custom', u'busybox']
+Warning: target file "./usr/sbin/fibmap.f2fs" is touched by more than one package: [u'f2fs-tools', u'busybox']
+Warning: target file "./lib/libnsl-2.29.so" is touched by more than one package: [u'toolchain-external-custom', u'busybox']
+Warning: target file "./lib/firmware/ti-connectivity/wl127x-nvs.bin" is touched by more than one package: [u'linux-firmware', u'busybox']
+Warning: target file "./usr/lib/libnl-idiag-3.so.200.26.0" is touched by more than one package: [u'libnl', u'busybox']
+Warning: target file "./lib/libnss_dns-2.29.so" is touched by more than one package: [u'toolchain-external-custom', u'busybox']
+Warning: target file "./lib/libgcc_s.so.1" is touched by more than one package: [u'toolchain-external-custom', u'busybox']
+Warning: target file "./usr/sbin/mkfs.f2fs" is touched by more than one package: [u'f2fs-tools', u'busybox']
+Warning: target file "./lib/librt-2.29.so" is touched by more than one package: [u'toolchain-external-custom', u'busybox']
+Warning: target file "./usr/lib/libsodium.so.23.2.0" is touched by more than one package: [u'libsodium', u'busybox']
+Warning: target file "./usr/lib/libnl-genl-3.so.200.26.0" is touched by more than one package: [u'libnl', u'busybox']
+Warning: target file "./lib/libm-2.29.so" is touched by more than one package: [u'toolchain-external-custom', u'busybox']
+Warning: target file "./usr/sbin/fw_printenv" is touched by more than one package: [u'uboot-tools', u'busybox']
+Warning: target file "./usr/lib/libnl-nf-3.so.200.26.0" is touched by more than one package: [u'libnl', u'busybox']
+Warning: target file "./usr/lib/erlang/bin/to_erl" is touched by more than one package: [u'erlang', u'busybox']
+Warning: target file "./usr/lib/libf2fs.so.5.0.0" is touched by more than one package: [u'f2fs-tools', u'busybox']
+Warning: target file "./usr/sbin/wpa_supplicant" is touched by more than one package: [u'wpa_supplicant', u'busybox']
+Warning: target file "./usr/bin/rngtest" is touched by more than one package: [u'rng-tools', u'busybox']
+Warning: target file "./usr/lib/erlang/erts-10.4.4/bin/beam.smp" is touched by more than one package: [u'erlang', u'busybox']
+Warning: target file "./usr/sbin/f2fscrypt" is touched by more than one package: [u'f2fs-tools', u'busybox']
+Warning: target file "./usr/sbin/rngd" is touched by more than one package: [u'rng-tools', u'busybox']
+Warning: target file "./usr/lib/libconfuse.so.2.0.0" is touched by more than one package: [u'libconfuse', u'busybox']
+Warning: target file "./usr/lib/libncurses.so.6.1" is touched by more than one package: [u'ncurses', u'busybox']
+Warning: target file "./usr/lib/erlang/erts-10.4.4/bin/heart" is touched by more than one package: [u'erlang', u'nerves_heart', u'busybox']
+Warning: target file "./usr/sbin/parse.f2fs" is touched by more than one package: [u'f2fs-tools', u'busybox']
+Warning: target file "./lib/ld-2.29.so" is touched by more than one package: [u'toolchain-external-custom', u'busybox']
+Warning: target file "./usr/lib/libz.so.1.2.11" is touched by more than one package: [u'libzlib', u'busybox']
+Warning: target file "./usr/bin/nbtty" is touched by more than one package: [u'nbtty', u'busybox']
+Warning: target file "./lib/libanl-2.29.so" is touched by more than one package: [u'toolchain-external-custom', u'busybox']
+Warning: target file "./usr/lib/libcrypto.so.1.1" is touched by more than one package: [u'libopenssl', u'busybox']
+Warning: target file "./usr/lib/erlang/erts-10.4.4/bin/dyn_erl" is touched by more than one package: [u'erlang', u'busybox']
+Warning: target file "./usr/lib/libnl-3.so.200.26.0" is touched by more than one package: [u'libnl', u'busybox']
+./support/scripts/check-uniq-files -t staging /nerves/build/build/packages-file-list-staging.txt
+Warning: staging file "./etc/resolv.conf" is touched by more than one package: [u'skeleton-custom', u'toolchain-external-custom']
+./support/scripts/check-uniq-files -t host /nerves/build/build/packages-file-list-host.txt
+if grep -q CONFIG_ASH=y ./.config; then grep -qsE '^/bin/ash$' /nerves/build/target/etc/shells || echo "/bin/ash" >> /nerves/build/target/etc/shells; fi
+grep: ./.config: No such file or directory
+if grep -q CONFIG_HUSH=y ./.config; then grep -qsE '^/bin/hush$' /nerves/build/target/etc/shells || echo "/bin/hush" >> /nerves/build/target/etc/shells; fi
+grep: ./.config: No such file or directory
+mkdir -p /nerves/build/host/etc/meson
+sed -e "s%@TARGET_CROSS@%/nerves/build/host/bin/arm-unknown-linux-gnueabihf-%g" -e "s%@TARGET_ARCH@%arm%g" -e "s%@TARGET_CPU@%cortex-a8%g" -e "s%@TARGET_ENDIAN@%"little"%g" -e "s%@TARGET_CFLAGS@%`printf '"%s", ' -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64  -O2  `@PKG_TARGET_CFLAGS@%g" -e "s%@TARGET_LDFLAGS@%@PKG_TARGET_CFLAGS@%g" -e "s%@TARGET_CXXFLAGS@%`printf '"%s", ' -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64  -O2  `@PKG_TARGET_CFLAGS@%g" -e "s%@HOST_DIR@%/nerves/build/host%g" package/meson//cross-compilation.conf.in > /nerves/build/host/etc/meson/cross-compilation.conf.in
+sed -e "s%@PKG_TARGET_CFLAGS@%%g" -e "s%@PKG_TARGET_LDFLAGS@%%g" -e "s%@PKG_TARGET_CXXFLAGS@%%g" /nerves/build/host/etc/meson/cross-compilation.conf.in > /nerves/build/host/etc/meson/cross-compilation.conf
+Generating locale en_US.UTF-8
+rm -f /nerves/build/build/locales.nopurge
+for i in locale-archive locale-archive; do echo $i >> /nerves/build/build/locales.nopurge; done
+for dir in /nerves/build/target/usr/lib/locale; do for langdir in $dir/*; do if [ -e "${langdir}" ]; then grep -qx "${langdir##*/}" /nerves/build/build/locales.nopurge || rm -rf $langdir; fi done; done
+if [ -d /nerves/build/target/usr/share/X11/locale ]; then for lang in locale-archive; do if [ -f /nerves/build/target/usr/share/X11/locale/$lang/XLC_LOCALE ]; then echo "$lang/XLC_LOCALE: $lang"; fi done > /nerves/build/target/usr/share/X11/locale/locale.dir; fi
+rm -rf /nerves/build/target/usr/include /nerves/build/target/usr/share/aclocal \
+	/nerves/build/target/usr/lib/pkgconfig /nerves/build/target/usr/share/pkgconfig \
+	/nerves/build/target/usr/lib/cmake /nerves/build/target/usr/share/cmake
+find /nerves/build/target/usr/{lib,share}/ -name '*.cmake' -print0 | xargs -0 rm -f
+find /nerves/build/target/lib/ /nerves/build/target/usr/lib/ /nerves/build/target/usr/libexec/ \
+	\( -name '*.a' -o -name '*.la' \) -print0 | xargs -0 rm -f
+find: ‘/nerves/build/target/usr/libexec/’: No such file or directory
+rm -rf /nerves/build/target/usr/share/gdb
+rm -rf /nerves/build/target/usr/share/bash-completion
+rm -rf /nerves/build/target/usr/share/zsh
+rm -rf /nerves/build/target/usr/man /nerves/build/target/usr/share/man
+rm -rf /nerves/build/target/usr/info /nerves/build/target/usr/share/info
+rm -rf /nerves/build/target/usr/doc /nerves/build/target/usr/share/doc
+rm -rf /nerves/build/target/usr/share/gtk-doc
+rmdir /nerves/build/target/usr/share 2>/dev/null || true
+find /nerves/build/target   -type f \( -perm /111 -o -name '*.so*' \) -not \( -name 'libpthread*.so*' -o -name 'ld-*.so*' -o -name '*.ko' \) -print0 | xargs -0 /nerves/build/host/bin/arm-unknown-linux-gnueabihf-strip --remove-section=.comment --remove-section=.note 2>/dev/null || true
+find /nerves/build/target   \( -name 'ld-*.so*' -o -name 'libpthread*.so*' \) -print0 | xargs -0 -r /nerves/build/host/bin/arm-unknown-linux-gnueabihf-strip --remove-section=.comment --remove-section=.note --strip-debug 2>/dev/null || true
+test -f /nerves/build/target/etc/ld.so.conf && \
+	{ echo "ERROR: we shouldn't have a /etc/ld.so.conf file"; exit 1; } || true
+test -d /nerves/build/target/etc/ld.so.conf.d && \
+	{ echo "ERROR: we shouldn't have a /etc/ld.so.conf.d directory"; exit 1; } || true
+mkdir -p /nerves/build/target/etc
+( \
+	echo "NAME=Buildroot"; \
+	echo "VERSION=2019.08"; \
+	echo "ID=buildroot"; \
+	echo "VERSION_ID=2019.08"; \
+	echo "PRETTY_NAME=\"Buildroot 2019.08\"" \
+) >  /nerves/build/target/usr/lib/os-release
+ln -sf ../usr/lib/os-release /nerves/build/target/etc
+>>>   Sanitizing RPATH in target tree
+/nerves/env/platform/buildroot-2019.08/support/scripts/fix-rpath target
+>>>   Copying overlay /nerves/env/platform/board/nerves-common/rootfs_overlay
+>>>   Copying overlay /nerves/env/custom_bbb/rootfs_overlay
+>>>   Executing post-build script /nerves/env/platform/board/nerves-common/post-build.sh
+If the next line fails, add the following to nerves_defconfig and build clean (sorry):
+  BR2_ROOTFS_SKELETON_CUSTOM=y
+  BR2_ROOTFS_SKELETON_CUSTOM_PATH="${BR2_EXTERNAL_NERVES_PATH}/board/nerves-common/skeleton"
+>>>   Executing post-build script /nerves/env/custom_bbb/post-build.sh
+touch /nerves/build/target/usr
+>>>   Generating root filesystems common tables
+rm -rf /nerves/build/build/buildroot-fs
+mkdir -p /nerves/build/build/buildroot-fs
+printf '   \n' >> /nerves/build/build/buildroot-fs/full_users_table.txt
+printf '   	/bin/busybox                     f 4755 0  0 - - - - -\n\n' > /nerves/build/build/buildroot-fs/full_devices_table.txt
+cat system/device_table.txt >> /nerves/build/build/buildroot-fs/full_devices_table.txt
+>>>   Generating filesystem image rootfs.squashfs
+mkdir -p /nerves/build/images
+rm -rf /nerves/build/build/buildroot-fs/squashfs
+mkdir -p /nerves/build/build/buildroot-fs/squashfs
+rsync -auH --exclude=/THIS_IS_NOT_YOUR_ROOT_FILESYSTEM /nerves/build/target/ /nerves/build/build/buildroot-fs/squashfs/target
+echo '#!/bin/sh' > /nerves/build/build/buildroot-fs/squashfs/fakeroot
+echo "set -e" >> /nerves/build/build/buildroot-fs/squashfs/fakeroot
+echo "chown -h -R 0:0 /nerves/build/build/buildroot-fs/squashfs/target" >> /nerves/build/build/buildroot-fs/squashfs/fakeroot
+PATH="/nerves/build/host/bin:/nerves/build/host/sbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin" /nerves/env/platform/buildroot-2019.08/support/scripts/mkusers /nerves/build/build/buildroot-fs/full_users_table.txt /nerves/build/build/buildroot-fs/squashfs/target >> /nerves/build/build/buildroot-fs/squashfs/fakeroot
+echo "/nerves/build/host/bin/makedevs -d /nerves/build/build/buildroot-fs/full_devices_table.txt /nerves/build/build/buildroot-fs/squashfs/target" >> /nerves/build/build/buildroot-fs/squashfs/fakeroot
+printf '   \n' >> /nerves/build/build/buildroot-fs/squashfs/fakeroot
+printf '   	/nerves/build/host/bin/mksquashfs /nerves/build/build/buildroot-fs/squashfs/target /nerves/build/images/rootfs.squashfs -noappend -processors 7 -comp gzip -e srv\n' >> /nerves/build/build/buildroot-fs/squashfs/fakeroot
+chmod a+x /nerves/build/build/buildroot-fs/squashfs/fakeroot
+PATH="/nerves/build/host/bin:/nerves/build/host/sbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin" FAKEROOTDONTTRYCHOWN=1 /nerves/build/host/bin/fakeroot -- /nerves/build/build/buildroot-fs/squashfs/fakeroot
+rootdir=/nerves/build/build/buildroot-fs/squashfs/target
+table='/nerves/build/build/buildroot-fs/full_devices_table.txt'
+Parallel mksquashfs: Using 7 processors
+Creating 4.0 filesystem on /nerves/build/images/rootfs.squashfs, block size 131072.
+[===============================================================\] 501/501 100%
+
+Exportable Squashfs 4.0 filesystem, gzip compressed, data block size 131072
+	compressed data, compressed metadata, compressed fragments, compressed xattrs
+	duplicates are removed
+Filesystem size 9419.13 Kbytes (9.20 Mbytes)
+	39.12% of uncompressed filesystem size (24075.18 Kbytes)
+Inode table size 6180 bytes (6.04 Kbytes)
+	30.58% of uncompressed inode table size (20211 bytes)
+Directory table size 6161 bytes (6.02 Kbytes)
+	44.54% of uncompressed directory table size (13833 bytes)
+Number of duplicate files found 10
+Number of inodes 585
+Number of files 370
+Number of fragments 53
+Number of symbolic links  139
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 76
+Number of ids (unique uids + gids) 2
+Number of uids 2
+	root (0)
+	www-data (33)
+Number of gids 2
+	root (0)
+	www-data (33)
+>>>   Executing post-image script /nerves/env/custom_bbb/post-createfs.sh
+Setting User
+UID: 501
+GID: 20
+Switching user
+/nerves/env/platform/scripts/mksystem.sh custom_bbb-portable-2.4.0-2471ABF
+Setting User
+UID: 501
+GID: 20
+Switching user
