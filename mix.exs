@@ -35,7 +35,8 @@ defmodule CustomBbb.MixProject do
     [
       type: :system,
       artifact_sites: [
-  #      {:github_releases, "pmr/#{@app}"}
+        {:prefix, "/Users/stefan/Nextcloud/PMR/development/nerves/artifacts/"},
+        {:github_releases, "ssachse/#{@app}"},
       ],
       build_runner_opts: build_runner_opts(),
       platform: Nerves.System.BR,
@@ -66,7 +67,7 @@ defmodule CustomBbb.MixProject do
     [
       files: package_files(),
       licenses: ["Apache 2.0"],
-      links: %{"Github" => "https://gitlab.kasa-esysteme.de/pmr/#{@app}"}
+      links: %{"Github" => "https://github.com/ssachse/#{@app}"}
     ]
   end
 
